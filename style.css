@@ -1,0 +1,93 @@
+
+body {
+
+    /*background: rgb(235,234,224);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url(https://media.infocielo.com/p/a9aeb63442dab3a32daea0a3b32c2b2b/adjuntos/299/imagenes/000/784/0000784975/1200x675/smart/nubes-cielo-nubladojpg.jpg);
+    background-repeat:  no-repeat;
+    background-size: cover;
+
+} 
+
+header {
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 5px;
+    color: white;
+    display: center;
+}
+
+.ciudad{
+background: #070707; 
+-webkit-background-clip: text; 
+-moz-background-clip: text; 
+background-clip: text; 
+color: transparent; 
+text-shadow: 0px 3px 3px rgba(138, 138, 138, 0.856),0px -1px 1px rgba(0,0,0,0.3);
+}
+
+#principal{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#box1, #box2, #box3, #box4, #box5 {
+    
+    vertical-align: middle;
+    width: 150px;
+    height: 200px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10%;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+}
+
+#box1 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSatFPvbR_bZ10H9Dx_mKJeWAaMB2Bo2SR2xg&usqp=CAU);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    color:rgba(245, 245, 245, 0.979);
+}
+
+#box2 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw5q4BC3fqNW19hLq6_RLSTebJcUrVbG5lUg&usqp=CAU);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    color:rgb(21,26,30);
+}
+
+#fecha{
+    font-size: 2rem;
+}
+
+#box3 {
+    background-image: url(http://4.bp.blogspot.com/_A_zY8SlWMlg/TI_3iPiGuAI/AAAAAAAABWk/q1gSEX8V7ds/s1600/Nube+cirrus.jpg);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    color:rgb(2, 59, 119);
+}
+
+#box4{
+    background-image: url(https://www.elnacional.cat/uploads/s1/19/41/57/93/mapa-previst-segona-pasqua-2022-catalunya-ecmwf-meteored_4_1258x630.jpeg);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    color:rgb(255, 255, 255); 
+}
+
+#box5{
+    background-image: url(https://i.scdn.co/image/ab6761610000e5eb0ab89ee74cb0d9bf66253f6a);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    color:rgb(9,12,32); 
+}
+
+#table{
+    background-color: #1a1a1a88;
+    color: rgb(255, 255, 255);
+    border-radius: 1.5%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.76);
+    margin-bottom: 50PX;
+    text-align: center;
+}

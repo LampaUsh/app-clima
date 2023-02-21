@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App Clima</title>
+  <link href="bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+  <header>
+
+    <div>
+
+      <!-- <b>Seleccionar Ciudad</b> -->
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Seleccionar ciudad
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item"></a>
+
+        </div>
+      </div>
+
+      <h1 class="ciudad mt-3"></h1>
+      <div class="icono-animado">
+
+      </div>
+
+    </div>
+  </header>
+
+  <div class="row justify-content-center">
+
+
+    <div class="col-4"></div>
+    <div class="col-4">
+
+
+
+    </div>
+    <div class="col-4"></div>
+  </div>
+
+  <div id="cuerpo" >
+
+
+    <div id="principal">
+
+      <div id="box1" class="card" style="width: 18rem;">
+
+        <div class="card-body">
+
+          <h3 class="card-title">Temperatura</h3>
+
+          <h1 class="card-text"> <b id="temperatura-valor"></b> °C</h1>
+
+        </div>
+
+      </div>
+
+
+      <div id="box2" class="card" style="width: 18rem;">
+
+        <div class="card-body">
+
+          <h3 class="card-title">Fecha</h3>
+
+          <h1 class="card-text" id="fecha"></h1>
+        </div>
+
+      </div>
+
+
+
+
+      <div id="box3" class="card" style="width: 18rem;">
+
+        <div class="card-body">
+
+          <h3 class="card-title">Veloc. del Viento</h3>
+
+          <h1 class="card-text"> <b id="vientovelocidad"></b> k/h</h1>
+        </div>
+
+      </div>
+
+
+
+
+      <div id="box4" class="card" style="width: 18rem;">
+
+        <div class="card-body">
+
+          <h3 class="card-title">Sensacion termica</h3>
+
+          <h1 class="card-text" > <b id="termica"></b> °C</h1>
+        </div>
+
+      </div>
+
+
+      <div id="box5" class="card" style="width: 18rem;">
+
+        <div class="card-body">
+
+          <h3 class="card-title">Precipitaciones</h3>
+
+          <h1 class="card-text"> <b id="preci"></b> mm.</h1>
+        </div>
+
+      </div>
+
+
+
+
+    </div>
+
+    <div class="container">
+
+      <table id="table" class="table mt-5">
+        <thead>
+          <tr>
+            <th scope="col">Dia</th>
+            <th scope="col">icono</th>
+            <th scope="col">Temperatura</th>
+            <th scope="col">Vel.Viento</th>
+            <th scope="col">Sen. Termica</th>
+            <th scope="col">Precipitaciones</th>
+          </tr>
+        </thead>
+
+        <tbody class="info">
+
+        </tbody>
+
+
+
+
+      </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+  </div>
+</body>
+
+<script src="app.js"></script>
+
+
+<script src="jquery-3.2.1.slim.min.js"></script>
+<script src="popper.min.js"></script>
+<script src="bootstrap.min.js"></script>
+
+</html>
